@@ -1,0 +1,17 @@
+body
+{
+    text-align: center;
+}
+#top
+{
+    font-size: 26px;
+    font-weight: bold;
+}
+#middle
+{
+    font-size: 24px;
+}
+#bottom
+{
+    font-size: 12px;
+}

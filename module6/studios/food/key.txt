@@ -1,0 +1,8 @@
+444ca01099846f86c062a581027f5afa
+
+http://api.cs50.net/food/3/menus?key=444ca01099846f86c062a581027f5afa&meal=LUNCH&output=json
+
+meal=BREAKFAST,LUNCH,DINNER
+output=json,jsonp,xml
+
+curl -v -o food.html http://api.cs50.net/food/3/menus?key=444ca01099846f86c062a581027f5afa&meal=LUNCH&output=json

@@ -1,0 +1,5 @@
+try:
+curl google.com
+curl -v google.com
+curl -v www.google.com/
+curl -v -o google.html www.google.com/

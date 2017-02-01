@@ -1,0 +1,14 @@
+#top
+{
+    border: 50px solid blue;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+
+#box
+{
+    border: 20px solid LightGrey;
+    background-color: LightGrey;
+}

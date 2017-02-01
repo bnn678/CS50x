@@ -1,0 +1,23 @@
+0.  BMP: over 4 billion     GIF: 256    JPEG: 16 million    PNG: 16 million
+1.  GIF
+2.  lossy  compression throws away some of the file
+    loseless uses an alogrithm to compress a file that is reversible
+3.  JPEG
+4.  FAT = File Allocation Table
+    the address table is erased but the file itself emains on the hard drive
+5.  Delete files using a secure delete option
+6.  TODO
+7.  TODO
+8.  TODO
+9.  TODO
+10. TODO
+11. TODO
+12. TODO
+13. TODO
+14. TODO
+15. TODO
+16. TODO
+17. TODO
+18. TODO
+
+https://github.com/Braveheart22/CS50/blob/master/pset5/questions.txt

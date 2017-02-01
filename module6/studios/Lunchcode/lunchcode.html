@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        
+        <div id="top">
+            <h1>LunchCode</h1>
+            <br/>
+            Find out what's cooking at Harvard by interacting with CS50's Food API
+        </div>
+        
+        </br>
+        
+        <div id="box">
+            <h3>Nutrition Facts</h3>
+            <form action="http://api.cs50.net/food/3/facts" method="get">
+                <input type="hidden" name="key" value="444ca01099846f86c062a581027f5afa"/>
+                <input type="hidden" name="output" value="json"/>
+                
+                <label>recipe:</label>
+                <input type="text" name="recipe" />
+                <label>portion:</label>
+                <input type="number" name="portion"/>
+                <input type="submit" value="SEND REQUEST"/>
+            </form>
+        </div>
+            
+        </br>
+        
+        <div id="box">    
+            <h3>Menus</h3>
+            <form action="http://api.cs50.net/food/3/menus" method="get">
+                <input type="hidden" name="key" value="444ca01099846f86c062a581027f5afa"/>
+                <input type="hidden" name="output" value="json"/>
+                
+                <label>meal:</label>
+                <input type="text" name="meal" />
+                <input type="submit" value="SEND REQUEST"/>
+            </form>
+        </div>
+            
+        </br>
+            
+        <div id="box">
+            <h3>Recipes</h3>
+            <form action="http://api.cs50.net/food/3/recipes" method="get">
+                <input type="hidden" name="key" value="444ca01099846f86c062a581027f5afa"/>
+                <input type="hidden" name="output" value="json"/>
+                
+                <label>id:</label>
+                <input type="text" name="id" />
+                <input type="submit" value="SEND REQUEST"/>
+            </form>
+        </div>
+        
+    </body>
+</html>
